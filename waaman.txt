@@ -1,0 +1,5 @@
+git add --- for adding file 
+git status -- to know about the status of the file
+git commit -m'write a message in it to understand the file' --- to commit the files
+git log --- view commit history
+git config --global username "Your name"
