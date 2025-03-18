@@ -5,8 +5,8 @@ console.log(name);
 let age=25;
 console.log(age);
 
-const country = India
-console.log(const);
+const country = "India"
+console.log(country);
 
 2. Variable Names
 "Which of the following variable names are valid in JavaScript? Explain why."
@@ -32,14 +32,14 @@ Undefined: let x;
 console.log(typeof(x)); --- Undefined comes as an output
 
 null let X = null;
-console.log(typeof(x)); --- Null comes as an output
+console.log(typeof(x)); --- Object comes as an output
 
 4.What is the data type of each value? Write them down:
 "42" --- String
 42 --- Number
 true --- Boolean
 undefined --- Undefined
-["apple", "banana"] --- Array
+["apple", "banana"] --- Object
 null --- Null
 
 5.Use typeof to find the data type of:
@@ -72,17 +72,17 @@ Divide it by 2 --- marks /=2; gives you 32
 3. prompt("Hello, Javascript");
 
 9.Write a single-line comment and a multi-line comment about what you've learned in JavaScript so far.
-Single-Line comment: Basic Fundamentals
-Multi-Line Comment: Datatypes, Arthmetic operators, Comparison operators
+Single-Line comment: //Basic Fundamentals
+Multi-Line Comment:/* Datatypes, Arthmetic operators, Comparison operators */
 
 10.10. Assignment Operators
 Predict the final value of variable num after these operations:
 let num = 10;
-num += 5; ---  2
-num *= 2; --- 20
-num -= 7; --- 3
-num /= 3; --- 3
-num %= 4; --- 2
+num += 5; ---  15
+num *= 2; --- 30
+num -= 7; --- 23
+num /= 3; --- 7.33
+num %= 4; --- 4.33
 
 
 11.What will the values of x, y, p, and q be after this code runs?
